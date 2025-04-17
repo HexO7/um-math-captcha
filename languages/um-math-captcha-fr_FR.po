@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Math Captcha in Register form\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-29 12:13+0000\n"
+"PO-Revision-Date: 2025-04-17 15:50+0200\n"
+"Last-Translator: HexO7\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Loco-Version: 2.6.6; wp-6.4-RC2\n"
+"X-Domain: um-math-captcha\n"
+
+#. Description of the plugin
+msgid "Adds the Math Captcha field to the registration form."
+msgstr "Ajoute le champ Math Captcha au formulaire d'inscription."
+
+#. Author URI of the plugin
+msgid "https://github.com/umdevelopera"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/umdevelopera/um-math-captcha"
+msgstr ""
+
+#: includes/class-um-math-captcha.php:117
+msgid "Incorrect answer. Please try again."
+msgstr "Réponse incorrecte. Veuillez réessayer."
+
+#: includes/class-um-math-captcha.php:115
+msgid "Math Captcha is required."
+msgstr "Math Captcha est nécessaire."
+
+#: includes/class-um-math-captcha.php:79
+msgid "Solve this simple Math: "
+msgstr "Résolvez ce petit calcul : "
+
+#. %s - plugin name.
+#: um-math-captcha.php:46
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://"
+"wordpress.org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"Pour fonctionner correctement, l'extension <strong>%s</strong> nécessite "
+"que le plugin Ultimate Member soit activé. Vous pouvez le télécharger <a "
+"href=\\\"https://wordpress.org/plugins/ultimate-member\\\">ici</a>."
+
+#. Name of the plugin
+msgid "Ultimate Member - Math Captcha"
+msgstr ""
+
+#. Author of the plugin
+msgid "umdevelopera"
+msgstr ""
+
+#: includes/class-um-math-captcha.php:82
+msgid "Your answer..."
+msgstr "Votre réponse..."
