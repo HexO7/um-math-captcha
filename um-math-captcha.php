@@ -51,3 +51,13 @@ if ( ! function_exists( 'um_math_captcha_check_dependencies' ) ) {
 	}
 }
 add_action( 'plugins_loaded', 'um_math_captcha_check_dependencies', 2 );
+
+add_action( 'init', 'um_math_captcha_load_textdomain' );
+
+function um_math_captcha_load_textdomain() {
+	load_plugin_textdomain(
+		'um-math-captcha',
+		false,
+		dirname( plugin_basename( __FILE__ ) ) . '/languages'
+	); 
+}
